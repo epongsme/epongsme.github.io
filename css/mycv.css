@@ -1,0 +1,90 @@
+body {
+    background-color: #f1f7f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #033520;
+}
+ 
+#banner {
+    background-color: #35A29F;
+    color: #f4f7f6;
+    padding: 30px;
+    background-image: url("https://th.bing.com/th/id/R.292b9f00b3e5ad3a646cea0552c70795?rik=JJt84mFksUJoXw&riu=http%3a%2f%2fmedia.istockphoto.com%2fphotos%2fgreen-background-picture-id475735358%3fk%3d6%26m%3d475735358%26s%3d612x612%26w%3d0%26h%3dbfiBpS8bwyzjYJEUHvmqj9BepXOC7TxpV1ZDc-VjsHg%3d&ehk=dtgjleyTcXofKEo0hIYooHN5AySxAtTWnIeN1DfgkeY%3d&risl=&pid=ImgRaw&r=0");
+}
+ 
+#menulist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+.menuitem {
+    width : 165px;
+    float : left; 
+    background-color: #012c23;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    cursor:pointer;
+}
+ 
+#menulist li a {
+    color: white;
+    text-decoration: none;
+}
+ 
+ 
+h2 {
+    color: #35A29F;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+ 
+#section-about p {
+    text-align: justify;
+    text-align: center;
+}
+ 
+ 
+ 
+#servicelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+ 
+.serviceitem {
+    width : 30%;
+    float : left; 
+    background-color: #b9c5c0;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    cursor:pointer;
+}
+ 
+#resumelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+ 
+.resumeitem {
+    width : 30%;
+    float : left; 
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: left;
+    cursor:pointer;
+}
